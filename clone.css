@@ -1,0 +1,146 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial;
+}
+.navbar {
+    display: flex;
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+}
+.border {
+    height: 50px;
+    width: 100px;
+}
+.border:hover {
+    border: 1.5px solid white;
+}
+.logo {
+    background-image: url("amazon_logo.png");
+    width: 100%;
+    height: 50px;
+    background-size: cover;
+}
+.add-loc {
+    display: flex;
+}
+.add-first {
+    margin-left: 15px;
+}
+.sec-loc {
+    margin-left: 6px;
+}
+.navbar-search {
+    display: flex;
+    width: 500px;
+    background-color: pink;
+    justify-content: space-around;
+}
+.search-search {
+    width: 51px;
+    height: 40px;
+    background-color: #ccc;
+    border: none;
+}
+.search-text {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.navbar-search:hover {
+    border: 2px solid orange;
+}
+.search {
+    width: 45px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(249, 168, 7);
+}
+.nav-list-child {
+    display: flex;
+}
+.nav-cart {
+    display: flex;
+    align-items: center;
+}
+.nav-return {
+    align-items: center;
+}
+.nav-all {
+    display: flex;
+}
+.nav-main {
+    display: flex;
+    background-color: #232f3e;
+    color: white;
+    height: 39px;
+    width: 100vw;
+}
+.nav-main div {
+    margin-left: 20px;
+}
+.nav-all div {
+    margin: 2px;
+}
+.cent {
+    align-items: center;
+}
+.bord:hover {
+    border: 1.5px solid white;
+    height: 37px;
+}
+.bord p{
+    margin-top: 10px;
+}
+/* .back img {
+    height: 100%;
+    width: 100vw;
+} */
+.hero {
+    display: flex;
+    position: relative;
+    background-image: url('https://m.media-amazon.com/images/I/71Ie3JXGfVL._SX3000_.jpg');
+    height: 400px;
+    background-size: cover;
+    justify-content: center;
+}
+.hero div {
+    background-color: white;
+    height: 40px;
+    width: 95%;
+}
+.hero-child a {
+    color: #007185;
+}
+.hero-child {
+    position: absolute;
+    top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shopping {
+    display: flex;
+    background-color: #e2e7e6;
+}
+.box {
+    border: 1px solid black;
+    width: 25%;
+    height: 400px;
+    margin: 5px;
+    background-color: white;
+    padding: 10px;
+}
+.box-img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box a {
+    color: #007185;;
+}
